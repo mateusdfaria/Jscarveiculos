@@ -1,0 +1,67 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 414px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column; /* Muda o menu para uma coluna */
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    nav button {
+        width: 90%; /* Faz com que os botões ocupem quase toda a largura da tela */
+        padding: 12px;
+        font-size: 16px;
+        margin-bottom: 5px; /* Adiciona um espaço entre os botões */
+        background-color: #242c4b; /* Ajusta o background para diferenciar os botões */
+        border: 1px solid white; /* Mantém o estilo do botão */
+    }
+
+    nav button:hover {
+        background-color: white;
+        color: #242c4b; /* Altera a cor do texto para melhorar a legibilidade no hover */
+    }
+
+    .Destaque h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .carousel .carousel-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .carousel .description {
+        font-size: 14px;
+    }
+
+    .contact-seller {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 14px;
+    }
+}
