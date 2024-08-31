@@ -1,0 +1,93 @@
+body {
+    background-color: #242c4b;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #242c4b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #1E1E2F;
+}
+
+.about-section {
+    padding: 50px 20px;
+    background-color: #2E2E3A;
+    color: white;
+    text-align: center;
+}
+
+.about-section .about-content,
+.about-section .mission-vision {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    color: #ff4b5c;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mission-vision .mission, .mission-vision .vision {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .mission-vision {
+        flex-direction: column;
+    }
+    .mission-vision .mission, .mission-vision .vision {
+        width: 100%;
+    }
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: #242c4b;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #242c4b;
+}
+
+nav button {
+    color: aliceblue;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #1E1E2F;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.estoque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.item h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.ver-mais {
+    padding: 10px 15px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.ver-mais:hover {
+    background-color: #e53b4c;
+}

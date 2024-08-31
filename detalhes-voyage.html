@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Carro</title>
+    <link rel="stylesheet" href="styles-detalhe.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logojs.jpg" alt="Logo do site">
+        </div>
+        <nav>
+            <a href="Home.html"><button id="Estoque">Home</button></a>
+            <a href="estoque.html"><button id="Estoque">Estoque</button></a>
+            <a href="Vender.html"><button id="Venda">Vender</button></a>
+            <a href="Cliente.html"><button id="Cliente">Clientes</button></a>
+            <a href="sobre.html"><button>Sobre Nós</button></a>
+            <a href="consignados.html"><button>Consignados</button></a>
+        </nav>
+    </header>
+
+    <div class="car-details-container">
+        <div class="car-images">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image/voyage-frente.png" alt="Carro Frente" class="car-image">
+                    <img src="image/voyage-tras.png" alt="Carro Traseira" class="car-image">
+                    <img src="image/voyage-dentro.png" alt="Interior do Carro" class="car-image">
+                    <img src="./image/voyage-frente1.png" alt="dentro do voyage" class="car-image">
+                    <img src="./image/voyage-tras2.png" alt="traseira do votage" class="car-image">
+                </div>
+                <div class="image-buttons">
+                    <button onclick="showImage(1)"></button>
+                    <button onclick="showImage(2)"></button>
+                    <button onclick="showImage(3)"></button>
+                    <button onclick="showImage(4)"></button>
+                    <button onclick="showImage(5)"></button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="car-info">
+            <h1>VOLKSWAGEN VOYAGE 2022</h1>
+            <ul>
+                <li><strong>Quilometragem: Apenas 86 km rodados!</strong></li>
+                <li><strong>Estado: Perfeito estado de conservação, sem histórico de leilão ou sinistro.</strong></li>
+                <li><strong>Proprietário: Único dono, veículo extremamente bem cuidado.</strong></li>
+                <li><strong>Modelo 2022, ainda com cheiro de novo</strong></li>
+                <li><strong>Economia de combustível e excelente performance</strong></li>
+                <li><strong>Interior impecável e confortável</strong></li>
+                <li><strong>Documentação em dia, pronto para transferir</strong></li>
+                <li>Esse Voyage 2022 é uma oportunidade imperdível para quem busca um carro praticamente zero quilômetro, com a confiabilidade e qualidade Volkswagen. Não perca essa chance!</li>
+            </ul>
+            <div class="price">
+                <h2>R$ 59.900</h2>
+            </div>
+            <a href="https://bit.ly/3JPXlpc" class="contact-seller">Enviar Mensagem ao Vendedor</a>
+        </div>
+    </div>
+
+    <script src="carousel.js"></script>
+</body>
+</html>
