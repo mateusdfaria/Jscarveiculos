@@ -1,0 +1,108 @@
+body {
+    background-color: #242c4b;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    background-color: #242c4b;
+    border-bottom: 2px solid white; /* Linha para dividir o header do body */
+    position: fixed; /* Fixa o menu no topo */
+    top: 0;
+    height: 18%;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique acima dos outros elementos */
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: none;
+    border: none; /* Remove o contorno (border) */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #1E1E2F;
+}
+
+.container {
+    display: flex;
+    margin-top: 150px;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #242c4b;
+    color: white;
+}
+
+.estoque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.item {
+    background-color: #2E2E3A;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.item h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.ver-mais {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d498e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.ver-mais:hover {
+    background-color: #5f82ea;
+}

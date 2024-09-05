@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Carro - BMW</title>
+    <link rel="stylesheet" href="styles-detalhe.css">
+    <link rel="stylesheet" href="styles-responsive.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logojs.jpg" alt="Logo do site">
+        </div>
+        <nav>
+            <a href="Home.html"><button id="Estoque">Home</button></a>
+            <a href="estoque.html"><button id="Estoque">Estoque</button></a>
+            <a href="Vender.html"><button id="Venda">Vender</button></a>
+            <a href="Cliente.html"><button id="Cliente">Clientes</button></a>
+            <a href="sobre.html"><button>Sobre Nós</button></a>
+            <a href="consignados.html"><button>Consignados</button></a>
+        </nav>
+    </header>
+
+    <div class="car-details-container">
+        <div class="car-images">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image/polo/frente.png" alt="BMW Frente" class="car-image active">
+                    <img src="image/polo/frente1.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/frente2.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/lado.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/traseira.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/traseira1.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/painel2.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/dentro.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/painel.png" alt="BMW Lateral" class="car-image">
+                    <img src="image/polo/banco-tras.png" alt="BMW Lateral" class="car-image">
+                    <!-- Adicione mais imagens se necessário -->
+                </div>
+                <div class="image-buttons">
+                    <button onclick="showImage(1)"></button>
+                    <button onclick="showImage(2)"></button>
+                    <button onclick="showImage(3)"></button>
+                    <button onclick="showImage(4)"></button>
+                    <button onclick="showImage(5)"></button>
+                    <button onclick="showImage(6)"></button>
+                    <button onclick="showImage(7)"></button>
+                    <button onclick="showImage(8)"></button>
+                    <button onclick="showImage(9)"></button>
+                    <button onclick="showImage(10)"></button>
+                    <!-- Adicione mais botões conforme o número de imagens -->
+                </div>
+            </div>
+        </div>
+        <div class="car-info">
+            <h1>Volkswagen Polo MSI 1.6 - 2020</h1>
+            <p><strong>Impecável e Pronto para Rodar</strong></p>
+            <ul>
+                <li><strong>Quilometragem:</strong>41.000</li>
+                <li><strong>Ano</strong>2020</li>
+                <li><strong>Único dono, com manual e chave reserva</strong></li>
+                <li><strong>Sem leilão e sem sinistro, histórico limpo!</strong></li>
+                <li><strong>4 pneus novos e aro de liga para mais segurança e estilo.</strong></li>
+                <li><strong>Todas as revisões feitas na concessionária, com total garantia de qualidade.</strong></li>
+                <li><strong>Equipado com multimídia e comandos no volante para mais conforto e tecnologia</strong></li>
+            </ul>
+            <div class="price">
+                <h2>R$ 75.900</h2>
+            </div>
+            <a href="https://bit.ly/3JPXlpc" class="contact-seller">Enviar Mensagem ao Vendedor</a>
+        </div>
+    </div>
+
+    <script src="carousel.js"></script>
+</body>
+</html>

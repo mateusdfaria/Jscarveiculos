@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Carro</title>
+    <link rel="stylesheet" href="styles-detalhe.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-responsive.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logojs.jpg" alt="Logo do site">
+        </div>
+        <nav>
+            <a href="Home.html"><button id="Estoque">Home</button></a>
+            <a href="estoque.html"><button id="Estoque">Estoque</button></a>
+            <a href="Vender.html"><button id="Venda">Vender</button></a>
+            <a href="Cliente.html"><button id="Cliente">Clientes</button></a>
+            <a href="sobre.html"><button>Sobre Nós</button></a>
+            <a href="consignados.html"><button>Consignados</button></a>
+        </nav>
+    </header>
+
+    <div class="car-details-container">
+        <div class="car-images">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image/pegueot-frente.png" alt="Carro Frente" class="car-image">
+                    <img src="image/pegueot-dentro2.png" alt="Carro Traseira" class="car-image">
+                    <img src="image/pegueot-dentro3.png" alt="Interior do Carro" class="car-image">
+                    <img src="./image/pegueot-dentro.png" alt="dentro do voyage" class="car-image">
+                    <img src="./image/pegueot-lado2.png" alt="traseira do lado" class="car-image">
+                    <img src="./image/pegueot-lado3.png" alt="traseira do lado2" class="car-image">
+                    <img src="./image/pegueot-frente.png" alt="traseira do frente1" class="car-image">
+                    <img src="./image/pegueot-moto.png" alt="traseira do moto" class="car-image">
+                    <img src="./image/pegueot-moto2.png" alt="traseira do moto2" class="car-image">
+                    <img src="./image/pegueot-tras.png" alt="traseira do tras" class="car-image">
+                </div>
+                <div class="image-buttons">
+                    <button onclick="showImage(1)"></button>
+                    <button onclick="showImage(2)"></button>
+                    <button onclick="showImage(3)"></button>
+                    <button onclick="showImage(4)"></button>
+                    <button onclick="showImage(5)"></button>
+                    <button onclick="showImage(5)"></button>
+                    <button onclick="showImage(6)"></button>
+                    <button onclick="showImage(7)"></button>
+                    <button onclick="showImage(8)"></button>
+                    <button onclick="showImage(9)"></button>
+                    <button onclick="showImage(10)"></button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="car-info">
+            <h1>Peugeot 207 2010</h1>
+            <p><strong>Peugeot 207 2010 1.6 Completo</strong></p>
+            <ul>
+                <li><strong>Este carro possui:</strong></li>
+                <li>Vidros, retrovisores e travas elétricas para mais comodidade.</li>
+                <li>Farol de milha, garantindo melhor visibilidade em condições adversas.</li>
+                <li>Repetidor de pisca no pára-lama para maior segurança.</li>
+                <li>Aros de liga, que além de deixar o carro mais bonito, aumentam a durabilidade.</li>
+                <li><strong>KM:162.000</strong></li>
+                <li><strong>Valor abaixo da Tabela Fipe!</strong></li>
+                <li>Ideal para quem busca um carro confortável e econômico. Venha conferir e faça um test drive!
+                    Entre em contato para mais informações ou agendar uma visita.</li>
+            </ul>
+            <div class="price">
+                <h2>Venha conferir</h2>
+            </div>
+            <a href="https://bit.ly/3JPXlpc" class="contact-seller">Enviar Mensagem ao Vendedor</a>
+            </div>
+            
+    </div>
+
+    <script src="carousel.js"></script>
+</body>
+</html>

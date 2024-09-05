@@ -1,0 +1,116 @@
+body {
+    background-color: #242c4b;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    background-color: #242c4b;
+    border-bottom: 2px solid white; /* Linha para dividir o header do body */
+    position: fixed; /* Fixa o menu no topo */
+    top: 0;
+    height: 18%;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique acima dos outros elementos */
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: none;
+    border: none; /* Remove o contorno (border) */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #1E1E2F;
+}
+
+.Destaque {
+    margin-top: 150px; /* Ajusta o conteúdo para não ficar sobreposto ao menu */
+}
+
+.Destaque h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #5f82ea;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2E2E3A;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .description {
+    padding: 20px;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d498e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #5f82ea;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+

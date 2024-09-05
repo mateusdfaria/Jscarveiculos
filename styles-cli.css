@@ -1,0 +1,18 @@
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.vendas img{
+    width: 350px; 
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
